@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /produdoro/api
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: ${MONGO_DB_URI:mongodb+srv://devefazendotestes_db_user:<root>@wakanda.fpia4kt.mongodb.net/}
+      auto-index-creation: true

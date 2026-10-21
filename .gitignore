@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+echo ".metadata/" >> .gitignore
 
 ### IntelliJ IDEA ###
 .idea
